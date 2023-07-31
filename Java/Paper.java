@@ -5,7 +5,6 @@
 // n=-5, m=5:  0
 
 
-package Java;
 
 public class Paper {
     public static int paperWork(int n, int m) 
