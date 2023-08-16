@@ -10,12 +10,10 @@ You can assume, for the purpose of this kata, that the supplied array will not b
 
 public class SmallestIntegerFinder {
     public static int findSmallestInt(int[] args) {
-      int result =0;
-      for (int i = 0; i < args.length - 1; i++){
-        if (args[i] < args[i+1]){
+      int result = args[0];
+      for (int i = 0; i < args.length; i++){
+        if (args[i] < result){
           result = args[i];
-        }else{
-          result = args[i+1];
         }
       }return result;
 
