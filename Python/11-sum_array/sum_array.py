@@ -21,7 +21,7 @@ We're testing basic loops and math operations. This is for beginners who are jus
 Advanced users may find this extremely easy and can easily write this in one line.
  """
 
- import math
+import math
 def sum_array(a):
     if a == []:
         return 0
