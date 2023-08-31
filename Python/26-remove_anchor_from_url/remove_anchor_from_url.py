@@ -6,7 +6,6 @@ Examples
 
  """
 def remove_url_anchor(url):
-    list(url)
     ans = ''
     for i in url:
         if i != '#':
